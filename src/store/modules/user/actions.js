@@ -12,7 +12,7 @@ export function updateProfileSuccess(profile) {
   };
 }
 
-export function updateProfileFailure(data) {
+export function updateProfileFailure() {
   return {
     type: '@user/UPDATE_PROFILE_REQUEST',
   };
